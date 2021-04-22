@@ -1,0 +1,93 @@
+#Header{
+    background-color: grey;
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 65px;
+    max-width: 50%;
+    height: 200px;
+margin-left:20%;
+
+ 
+}
+body{
+    background-color:wheat;
+}
+#round{
+    padding-left: 10px;
+    
+}
+#inner{
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 58px;
+}
+#header1{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 50px;
+    text-align: center;
+    
+}
+ h2{
+    
+    margin-left: 400px;
+    margin-top: -100px;
+    padding-bottom: 55px;
+    font-size: x-large;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#tweet-list{
+    margin-left: 300px;
+    margin-top: -60px;
+}
+
+.btn{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-color: blue;
+    width:200px;
+    
+  
+
+}
+.remove-tweet{
+    float: right;
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    margin-left: -40px;
+    cursor: pointer;
+}
+@media only screen and ( max-width:600px){
+    #Header{
+        text-align: center;
+    }
+body{
+    background-color:blue;
+}
+    #tweet-list{
+        text-align: center;
+        margin-left: 0;
+        margin-top: -60px;
+    }
+    h2{
+        text-align: center;
+        margin-left:0;
+        margin-top: 100px;
+    }
+    #Header{
+        background-color: grey;
+        text-align:center;
+        padding: 20px;
+        padding-bottom: 65px;
+        max-width: 50%;
+        height: 380px;
+    margin-left:20%;
+    
+     
+    }
+}
